@@ -63,3 +63,22 @@ function square(number) {
 square(5);
 square(7);
 square(10);
+
+function offWork(isWeekend, isHoliday) {
+	if (isWeekend || isHoliday) {
+		console.log("No Work!!!");
+	} else {
+		console.log("Go to work bum!");
+	}
+}
+
+offWork(true, true);
+offWork(true, false);
+offWork(false, true);
+offWork(false, false);
+
+function greet(name) {
+	console.log(`Hello, ${name}! Welcome to JavaScript class.`);
+}
+
+greet("Shawn");
